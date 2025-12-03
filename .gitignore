@@ -1,0 +1,84 @@
+# -----------------------------
+# Visual Studio files
+# -----------------------------
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.cache
+*.pdb
+*.opendb
+
+# -----------------------------
+# Build folders
+# -----------------------------
+OpenGLSFML/
+build/
+Build/
+x64/
+Debug/
+Release/
+out/
+bin/
+obj/
+lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# -----------------------------
+# SFML artifacts
+# -----------------------------
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# Ignore SFML extracted SDK
+SFML-2.*/
+SFML/
+
+# -----------------------------
+# OpenGL related binaries
+# -----------------------------
+*.so
+*.dylib
+
+# -----------------------------
+# OS files
+# -----------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*~
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Archives
+# -----------------------------
+*.zip
+*.7z
+*.tar
+*.gz
+
+# -----------------------------
+# Editor files
+# -----------------------------
+*.code-workspace
+*.vscode/
